@@ -41,9 +41,10 @@
         android:text="click"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_name"
-        app:layout_marginBaseline="30dp"
-        tools:layout_editor_absoluteX="124dp" />
+        app:layout_marginBaseline="30dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
